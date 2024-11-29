@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: gray;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.721);
+    padding: 20px;
+    text-align: center;
+
+    height: 10%;
+}
+
+section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    gap: 5px;
+    text-shadow: 2px 2px 2px white;
+}
+section input{
+    padding: 5px;
+}
+section .input{
+    display: flex;
+}
+section .input button{
+    background-color:chartreuse;
+    font-weight: bolder;
+    padding: 5px;
+}
+section .input button:hover{
+    scale: 1.1;
+    cursor: pointer;
+    background-color: rgb(22, 148, 119);
+    color: white;
+}
+
+section form{
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.721);
+    padding: 50px;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    height: 10%;
+}
+
+
+.new-container{
+    display: flex;
+}
+.new-task{
+    margin-top: 5px;
+    background-color: white;
+    padding: 5px;
+    font-weight: bolder;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+    width: 82%;
+}
+.delete-task{
+    margin-top: 5px;
+    background-color: red;
+    padding: 5px;
+    font-weight: bolder;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+    width: 18%;
+}
+.delete-task:hover{
+    scale: 1.1;
+    cursor: pointer;
+    background-color: rgb(97, 0, 0);
+    color: white;
+}
+
+.completed-task{
+    margin-top: 5px;
+    background-color: lightblue;
+    padding: 5px;
+    font-weight: bolder;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+    width: 18%;
+}
+.completed-task:hover{
+    scale: 1.1;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
